@@ -33,6 +33,6 @@ class UniqueSitemap extends Sitemap {
 
 (
     new UniqueSitemap(router())
-        .build('https://example.com')
+        .build('https://quarkly-template-4.netlify.app')
         .save('./public/sitemap-index.xml')
 );
