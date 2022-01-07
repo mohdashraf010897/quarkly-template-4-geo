@@ -18,17 +18,20 @@ const ReactiveGoogleMapWrapper = props => {
 		display: 'flex',
 		flexDirection: 'column',
 		justifyContent: 'flex-start',
-		alignItems: 'flex-start'
+		alignItems: 'flex-start',
+		maxWidth: "300px"
 	}}>
 		<div style={{
 			margin: '3px 0',
 			height: '100px',
-			width: '100%'
+			width: '100%',
+			display: 'flex',
+			justifyContent: 'center',
+			alignItems: 'center'
 		}}>
 			<img style={{
 				margin: '3px 0',
-				height: '100%',
-				width: '100%'
+				height: '100%'
 			}} src={item.picture_url} alt={item.name} />
 		</div>
 		<div style={{
