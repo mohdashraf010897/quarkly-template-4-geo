@@ -128,6 +128,7 @@ export default (() => {
 							flex-direction="column"
 							align-items="center"
 							justify-content="flex-start"
+							padding="0px 3rem 0px 3rem"
 						>
 							<Components.ReactiveGoogleMap
 								componentId="mapComponent"
@@ -139,6 +140,13 @@ export default (() => {
 								height="100%"
 								max-height="100vh"
 								size="50"
+								react={{
+									"and": ["distanceSensor"]
+								}}
+								margin="0px 0rem 0px 0rem"
+								padding="0px 0px 0px 0rem"
+								showMapStyles
+								showMarkerClusters
 							/>
 						</Box>
 					</Box>
