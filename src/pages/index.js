@@ -141,7 +141,7 @@ export default (() => {
 								max-height="100vh"
 								size="50"
 								react={{
-									"and": ["distanceSensor"]
+									"and": ["distanceSensor", "citiesSensor"]
 								}}
 								margin="0px 0rem 0px 0rem"
 								padding="0px 0px 0px 0rem"
