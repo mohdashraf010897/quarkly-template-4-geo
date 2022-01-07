@@ -29,7 +29,7 @@ const ReactiveGoogleMapWrapper = props => {
 				margin: '3px 0',
 				height: '100%',
 				width: '100%'
-			}} src={item.images.picture_url} alt={item.name} />
+			}} src={item.picture_url} alt={item.name} />
 		</div>
 		<div style={{
 			margin: '3px 0'
