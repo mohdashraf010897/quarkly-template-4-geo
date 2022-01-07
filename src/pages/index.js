@@ -119,7 +119,7 @@ export default (() => {
 								rangeEnd="100"
 								iconPosition="left"
 								showIcon
-								autoLocation
+								autoLocation={false}
 							/>
 						</Box>
 						<Box
