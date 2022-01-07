@@ -139,7 +139,7 @@ export default (() => {
 								width="100%"
 								height="100%"
 								max-height="100vh"
-								size="50"
+								size="1000"
 								react={{
 									"and": ["distanceSensor", "citiesSensor"]
 								}}
